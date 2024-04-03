@@ -28,17 +28,17 @@
 컴포넌트 간의 상호작용 방식에서 차이가 존재한다.
 <br>
 
-<h5 style="background-color: #266DFC; color: #ffffff; padding: 0.5em;"> MVC</h5>
+`MVC`
 - Model : 애플리케이션의 데이터를 관리 
 - View : 사용자 인터페이스 담당 
 - Controller : Model과 View 사이를 연결하는 역할. 사용자의 이벤트에 반응하며 Model을 업데이트 및 View 재랜더링 
 
-<h5 style="background-color: #266DFC; color: #ffffff; padding: 0.5em;"> MVVM</h5>
+`MVVM`
 -  Model: 애플리케이션과 비즈니스 로직을 담당 
 -  View: 사용자 인터페이스, 즉 UI를 담당 
 -  ViewModel: View ~ Model 사이의 연결고리로 View에 표시될 데이터와 명령을 준비하며 Model로부터 데이터를 받아 View가 표시할 수 있게한다.
 
-<h5 style="background-color: #266DFC; color: #ffffff; padding: 0.5em;"> MVC</h5>
+`MVP`
 - Model: 데이터와 비즈니스 로직 처리 
 - View : 사용자 인터페이스 표시 
 - Presenter : 뷰와 모델 사이의 중간 역할
@@ -49,9 +49,10 @@ MVVM은 **Controller 대신 ViewModel**이 Model과 View를 연결하는 역할�
 ### MVVM 패턴의 ViewModel과 AAC에서의 ViewModel의 차이점 
 ---
 
-<h5 style="background-color: #266DFC; color: #ffffff; padding: 0.5em;"> MVVM의 ViewModel</h5>
+`MVVM의 ViewModel`
 1. View - Model 사이의 매개체 역할
 2. View에 보여지는 데이터를 가공 <br>
-<h5 style="background-color: #266DFC; color: #ffffff; padding: 0.5em;"> AAC의 ViewModel</h5>
+
+`AAC의 ViewModel`
 1. 앱의 LifeCycle을 고려하여 UI 관련 데이터를 저장하고 관리
 2. 화면 회전 시에도 데이터 보존 가능
